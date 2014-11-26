@@ -11,3 +11,8 @@ Change Log
 
 v1.0
 Main program released with bare basics
+
+v1.1
+Changed the way the program clears the screen
+Fixed a typo
+NOTE: As of v1.1, this will NO LONGER WORK ON MACS
