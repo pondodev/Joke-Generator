@@ -1,4 +1,4 @@
-# JOKE GENERATOR V1.0
+# JOKE GENERATOR V1.1
 # MADE BY p0isonedpanda 
 
 import random
@@ -35,7 +35,7 @@ print " | | |_ |/ _ \ '_ \ / _ \ '__/ _` | __/ _ \| '__|"
 print " | |__| |  __/ | | |  __/ | | (_| | || (_) | |   "
 print "  \_____|\___|_| |_|\___|_|  \__,_|\__\___/|_|   "
 print "Presented by p0isonedpanda"
-print "Version 1.0\n"
+print "Version 1.1\n"
 
 raw_input(para)
 
