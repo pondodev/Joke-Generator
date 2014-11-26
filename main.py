@@ -1,8 +1,8 @@
 # JOKE GENERATOR V1.0
 # MADE BY p0isonedpanda 
 
-# Here we import the random module
 import random
+import os
 
 # This is our pool of jokes
 j1 = "What did the green grape say to the purple grape?\nBREATHE STUPID!"
@@ -13,7 +13,7 @@ j5 = "My friend thinks he is so smart, told me today that onion is the only food
 j6 = "What stays in one corner but travels around the world?\nA stamp."
 j7 = "What do you call a pig that does karate?\nPork chop."
 j8 = "Why does Humpty Dumpty love autumn?\nBecause he had a great fall last year."
-j9 = "Did you hear about the kidnapping at school today>\nIt's alright, he's awake now."
+j9 = "Did you hear about the kidnapping at school today?\nIt's alright, he's awake now."
 j10 = "Have you heard about the new restaurant Karma?\nThere's no menu, you get what you deserve."
 
 # Placeholder for raw_input parameter
@@ -46,7 +46,7 @@ i = True
 while i == True:
 
 	# Simply clears the screen before a new entry appears
-	print '\n' * 100
+	os.system('cls')
 
 	joke = random.randint(1, 10)
 
@@ -75,3 +75,4 @@ while i == True:
 	close = raw_input(para2)
 	if close == 'stop':
 		i = False
+		os.system('cls')
