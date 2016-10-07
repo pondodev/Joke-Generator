@@ -19,4 +19,4 @@ Changed the way the program clears the screen
 
 Fixed a typo
 
-NOTE: As of v1.1, this will NO LONGER WORK ON MACS
+NOTE: As of v1.1, this will NO LONGER WORK ON MACS (Sorry MAC users)
