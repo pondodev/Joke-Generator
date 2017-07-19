@@ -19,4 +19,8 @@ Changed the way the program clears the screen
 
 Fixed a typo
 
-NOTE: As of v1.1, this will NO LONGER WORK ON MACS
+NOTE: As of v1.1, this will NO LONGER WORK ON MACS (probably maybe idk never tested it don't plan on doing so)
+
+v1.2
+
+Necro'd this old repo to *finally* clean it up since it's old and disgusting. Now using a list to store jokes, which has brought the line count down a bunch which is very nice. 16 year old me didn't realise that `os` is a lib that exists on all platforms, however I'm not sure if `os.system('cls')` will work on anything but Windows cause I haven't properly looked into it or tested it, not that you'd want to anyway. I'm only really cleaning this code up because it's been bugging me for ages now.
